@@ -7,13 +7,13 @@ import static org.junit.Assert.*;
 
 public class ApplicationTest {
     private Application app;
-    
+
     @Before
     public void setup() {
         app = new Application();
     }
-    
-    
+
+
     @Test
     public void testWordCountString() {
         int count = app.countWords("this is a test");
